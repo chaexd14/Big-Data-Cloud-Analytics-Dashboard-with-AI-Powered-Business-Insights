@@ -12,12 +12,12 @@ function Navbar() {
                     </div>
                     <div>
                         <h1 className="text-lg font-bold tracking-tight text-white flex items-center gap-1.5 leading-none">
-                            Antigravity <span className="text-xs font-semibold text-indigo-400 bg-indigo-500/10 px-2 py-0.5 rounded border border-indigo-500/20 uppercase tracking-wider">Cloud</span>
+                            The Boyz <span className="text-xs font-semibold text-indigo-400 bg-indigo-500/10 px-2 py-0.5 rounded border border-indigo-500/20 uppercase tracking-wider">ARAY MO!</span>
                         </h1>
                         <p className="text-[10px] text-slate-400 mt-1 font-medium tracking-wide uppercase">Big Data Analytics Portal</p>
                     </div>
                 </div>
-                
+
                 <div className="flex items-center gap-4">
                     <div className="hidden sm:flex items-center gap-2 text-xs font-semibold text-slate-300 bg-slate-900/60 border border-slate-800/80 px-3 py-1.5 rounded-lg shadow-sm">
                         <Activity className="w-3.5 h-3.5 text-indigo-400 animate-pulse-glow" />
