@@ -18,7 +18,9 @@ app.use(cors());
 app.use(express.json());
 
 app.use('/api/analytics', analyticsRoutes);
+app.use('/_/backend/api/analytics', analyticsRoutes);
 app.use('/api/ai', aiRoutes);
+app.use('/_/backend/api/ai', aiRoutes);
 
 // Serve static assets in production
 if (process.env.NODE_ENV === 'production') {
